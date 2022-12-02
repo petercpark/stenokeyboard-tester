@@ -1,0 +1,34 @@
+*,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin-top: 2em;
+}
+
+#keyboard-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.key {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(200, 200, 200);
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pressed {
+  background-color: rgb(139, 255, 139);
+  color: black;
+}
+
+#connect-button-container {
+  margin-bottom: 1em;
+}
