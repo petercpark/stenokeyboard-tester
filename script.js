@@ -13,6 +13,7 @@ export default STENO_KEY_CHART;
 
 // Gemini PR protocol interpreter
 function InterpretGemini(packet) {
+  console.log(packet);
   //to do: handle broken packets
   if (!(packet[0] & 128)) {
     return;
